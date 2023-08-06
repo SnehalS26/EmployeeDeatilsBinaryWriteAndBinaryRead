@@ -92,7 +92,7 @@ namespace EmployeeDeatilsBWandBR
                 textempsalary.Text = binaryReader.ReadInt32().ToString();
                 binaryReader.Close();
                 fileStream.Close();
-               
+      
             }
             catch (Exception ex)
             {
